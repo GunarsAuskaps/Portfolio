@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin-left: 33%;
+  margin-right:33%;
+  font-family: 'Crimson Text', serif;
+}
+.navbar{
+  z-index: 9990;
+  position: fixed;
+  width: 100%;
+  background-color: purple;
+  font-family: 'Crimson Text', serif;
+}
+p {
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+}
+.name{
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 15px;
+  margin-left: 100px;
+  color: yellow;
+  font-family: 'Crimson Text', serif;
+}
+
+.navbar > .content{
+  width: 900px;
+  height: 50px;
+  margin: 0 auto;
+  font-family: 'Crimson Text', serif;
+}
+
+.navbar .links {
+  float:right;
+  font-size: 25px;
+  margin-top: 15px;
+  font-family: 'Crimson Text', serif;
+}
+
+.navbar .links li{
+  display:inline-block;
+  margin-left: 30px;
+  margin-right: 100px;
+  color:yellow;
+  font-family: 'Crimson Text', serif;
+}
+
+.navbar .jumper {
+  color: yellow;
+}
+
+nav div ul li:hover {
+  cursor: pointer;
+}
+a {color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
+
+#Portfolio p {
+  text-align: center;
+}
+
+#Portfolio h3{
+  font-family: 'Crimson Text,' serif;
+  margin-top: 40px;
+  text-align: center; 
+  font-size: 1.2em;
+  padding-bottom: 20px;
+  }
+
+#Portfolio img {
+  border: 2px black solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-size: 1.2em;
+  background: purple;
+  text-decoration: none;
+  border: none;
+  min-width: 134px;
+  font-family: 'Crimson Text', serif;
+}
+button:hover{
+  cursor: pointer;
+  background-color: plum;
+}
+
+footer{
+  width:100%;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Crimson Text', serif;
+  background-color: purple;
+  color: yellow;
+  height: 50px;
+  font-size: 1.2em;
+}
+
+#resume {padding-top:200px; margin:0 auto; text-align: center;font-family: 'Crimson Text', serif;}
+
+img {border: 2px black solid; margin: 0 20px; margin-bottom: 20px;}
+
+@media screen and (min-width: 500px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .container {
+    flex-grow: 1;
+    flex-shrink: 2;
+  }
