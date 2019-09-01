@@ -15,10 +15,11 @@ h1{
   font-family: 'Crimson Text', serif;
 }
 p {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 33%;
+  margin-right: 33%;
   font-family: 'Crimson Text', serif;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 30px;
 }
 .name{
   display: inline-block;
@@ -118,13 +119,27 @@ footer{
 
 img {border: 2px black solid; margin: 0 20px; margin-bottom: 20px;}
 
-@media screen and (min-width: 500px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .container {
-    flex-grow: 1;
-    flex-shrink: 2;
-  }
+@media screen and (max-width: 400px) {
+
+.navbar .links{
+  float: left;
+}
+.navbar .links li{
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+}
+
+#Portfolio img {
+  width: 350px;
+  height: auto;
+}
+}
